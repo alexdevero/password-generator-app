@@ -1,5 +1,5 @@
 {
-  "name": "password-generator",
+  "name": "password-generator-app",
   "version": "0.0.1",
   "description": "Awesome Password generator app, built with Electron and React.",
   "license": "MIT",
