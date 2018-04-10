@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 
 const InfoWrapper = styled.div`
   margin-top: 32px;
@@ -9,8 +9,11 @@ const InfoWrapper = styled.div`
 const InfoText = styled.p`
   margin: 0;
   text-align: center;
-  word-break: break-all;
   color: hsl(208.9, 11.9%, 50%);
+
+  ${props => props.password && css`
+    word-break: break-all;
+  `}
 `
 
 const Info = ({ password, showResult }) => {
@@ -18,7 +21,7 @@ const Info = ({ password, showResult }) => {
     <InfoWrapper>
       {!showResult && <InfoText>Please, open the basic and/or advanced settings and choose which options do you want to use. Then, click on the button below to generate your password.</InfoText>}
 
-      {showResult && <InfoText>{password}</InfoText>}
+      {showResult && <InfoText password>{password}</InfoText>}
     </InfoWrapper>
   )
 }
