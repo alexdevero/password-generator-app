@@ -1,6 +1,6 @@
 {
   "name": "password-generator-app",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Awesome Password generator app, built with Electron and React.",
   "license": "MIT",
   "private": false,
