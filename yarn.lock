@@ -2058,8 +2058,8 @@ electron-to-chromium@^1.3.47:
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.48.tgz#d3b0d8593814044e092ece2108fc3ac9aea4b900"
 
 electron@^20.1.4:
-  version "20.1.4"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-20.1.4.tgz#d25b549f14376f99a0a239e27d67ef8515b4a5a0"
+  version "20.2.0"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-20.2.0.tgz#f37074c8fe16ae88c322febf71f3a130013ca534"
   dependencies:
     "@electron/get" "^1.14.1"
     "@types/node" "^16.11.26"
