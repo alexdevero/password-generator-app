@@ -55,7 +55,7 @@
     "start": "cross-env NODE_ENV=development webpack-dev-server --hot --host 0.0.0.0 --config=./webpack.dev.config.js --mode development"
   },
   "dependencies": {
-    "electron": "^26.1.0",
+    "electron": "^27.0.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "styled-components": "^4.4.1"
