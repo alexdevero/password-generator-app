@@ -69,7 +69,7 @@
     "cross-env": "^7.0.3",
     "electron-packager": "^17.1.1",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
-    "file-loader": "^1.1.11",
+    "file-loader": "^6.2.0",
     "html-webpack-plugin": "^4.5.2",
     "webpack": "^4.12.1",
     "webpack-cli": "^4.10.0",
